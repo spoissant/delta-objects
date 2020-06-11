@@ -1,0 +1,28 @@
+{
+  "name": "delta-objects",
+  "version": "1.0.0",
+  "description": "Little utility method to compare two JS objects and their properties and find differences",
+  "main": "js-diff.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spoissant/js-diff.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Simon Poissant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spoissant/js-diff/issues"
+  },
+  "homepage": "https://github.com/spoissant/js-diff#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@types/jest": "^26.0.0",
+    "jest": "^26.0.1"
+  }
+}
