@@ -1,9 +1,5 @@
 function isNumber(value) {
-    if (isNaN(value)) {
-        return false
-    }
-    var x = parseFloat(value)
-    return !isNaN(x)
+    return value === +value
 }
 
 // From https://coderwall.com/p/_g3x9q/how-to-check-if-javascript-object-is-empty
